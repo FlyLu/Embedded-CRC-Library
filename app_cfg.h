@@ -23,6 +23,7 @@
 #define ___CRC_APP_CFG_H__
 
 /*============================ INCLUDES ======================================*/
+#include <stdio.h>
 #include <stdint.h>
 #include <stdbool.h>
 
