@@ -299,7 +299,7 @@ uint8_t crc8_rohc_stream_check(uint8_t *pchCRCValue, uint8_t *pchData, uint32_t 
  */
 uint8_t crc8_rohc_check(uint8_t *pchCRCValue, uint8_t chData)
 {
-    uint16_t chCRC8;
+    uint8_t chCRC8;
 
     if (NULL == pchCRCValue) {
         return false;
@@ -459,7 +459,7 @@ uint8_t crc8_check(uint8_t *pchCRCValue, uint8_t chData)
 uint8_t crc8_stream_check(uint8_t *pchCRCValue, uint8_t *pchData, uint32_t wLength)
 {
     uint32_t i;
-    uint16_t chCRC8;
+    uint8_t chCRC8;
 
     if ((NULL == pchCRCValue) || (NULL == pchData)) {
         return false;
@@ -486,7 +486,7 @@ uint8_t crc8_stream_check(uint8_t *pchCRCValue, uint8_t *pchData, uint32_t wLeng
  */
 uint8_t crc8_check(uint8_t *pchCRCValue, uint8_t chData)
 {
-    uint16_t chCRC8;
+    uint8_t chCRC8;
 
     if (NULL == pchCRCValue) {
         return false;
