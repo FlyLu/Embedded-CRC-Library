@@ -34,7 +34,7 @@
 #define CRC_OPT_BALANCE     1
 #define CRC_OPT_SPEED       0
 
-#define CRC7_OPTIMIZE					CRC_OPT_SPEED
+#define CRC7_OPTIMIZE                   CRC_OPT_SPEED
 #define CRC8_OPTIMIZE                   CRC_OPT_BALANCE
 #define CRC8_ROHC_OPTIMIZE              CRC_OPT_BALANCE
 #define CRC16_MODBUS_OPTIMIZE           CRC_OPT_BALANCE
